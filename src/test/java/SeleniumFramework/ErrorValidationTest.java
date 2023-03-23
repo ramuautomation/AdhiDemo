@@ -41,5 +41,8 @@ public class ErrorValidationTest extends BaseTest {
 		public void Architect() {
 			System.out.println("Test Asia architect changes");  
 			}
-
+		@Test
+		public void ArchitectRework() {
+			System.out.println("Test Asia architect modified in framework");  
+			}
 }
