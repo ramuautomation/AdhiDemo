@@ -24,6 +24,8 @@ public class ErrorValidationTest extends BaseTest {
 		  Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		  System.out.println("changes pushed from Test Y");
 		  System.out.println("Test X - Need to pull my chnages to continue from here");
+		  System.out.println("Test X-> made some changes");
+		  System.out.println("Test X-> commited changes and loggedoff and Test Y needs to pull latest");
 		}
 		@Test
 		public void ProductError() throws IOException, InterruptedException {

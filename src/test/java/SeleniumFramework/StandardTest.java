@@ -48,6 +48,7 @@ public class StandardTest extends BaseTest {
 		   productCatalogue productItems=(productCatalogue) landingPage.loginForm("test@practice.com", "Test1234");
 			OrdersPage ordersPage =  productItems.goToOrder();
 			  Assert.assertTrue(ordersPage.orderListPage(productName));
+			  System.out.println("Test X-> made some changes in this class as well");
 			}
 //      @DataProvider
 //      public Object[][] getData()
