@@ -37,6 +37,9 @@ public class ErrorValidationTest extends BaseTest {
 			  Boolean match=cartPage.cartList("ZARA COAT 45");
 	          Assert.assertFalse(match);
 			}
-	
+		@Test
+		public void Architect() {
+			System.out.println("Test Asia architect changes");  
+			}
 
 }

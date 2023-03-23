@@ -74,4 +74,9 @@ public class StandardTest extends BaseTest {
     	  return new Object[][] {{data.get(0)},{data.get(1)}};
     	  
       }
+   @Test
+   public void Changes()
+   {
+	   System.out.println("Asia architect framework changes");
+   }
 }
